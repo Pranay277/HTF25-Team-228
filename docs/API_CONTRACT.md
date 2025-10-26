@@ -25,3 +25,43 @@ This document is the single source of truth for the API.
   "style_tags": ["casual", "streetwear", "gen z"],
   "formality_level": 1
 }
+{
+  "occasion": "Work Party",
+  "style_vibe": "Gen X",
+  "weather": "Cold"
+}
+[
+  {
+    "outfit_items": [
+      "uuid-for-blazer", 
+      "uuid-for-shirt", 
+      "uuid-for-pants"
+    ],
+    "explanation": "This is a great look because the classic blazer is updated by the modern cut of the pants, fitting the Gen X vibe.",
+    "tip": "Layer the blazer over the shirt for a smart-casual look."
+  },
+  {
+    "outfit_items": [
+      "uuid-for-sweater", 
+      "uuid-for-jeans"
+    ],
+    "explanation": "This alternative is more relaxed but still appropriate for a party.",
+    "tip": "Tuck in the sweater with a 'French tuck' to define your waist."
+  }
+]
+[
+  {
+    "item_id": "uuid-1234-abcd",
+    "description": "Blue ripped jeans",
+    "image_url": "https://.../image.png",
+    "category": "bottom",
+    ...
+  },
+  {
+    "item_id": "uuid-5678-efgh",
+    "description": "White Graphic T-Shirt",
+    "image_url": "https://.../image2.png",
+    "category": "top",
+    ...
+  }
+]
