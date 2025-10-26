@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "AI Outfit Planner",
+    "slug": "ai-outfit-planner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icons/app-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./app/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.aioutfitplanner"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/icons/app-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.yourcompany.aioutfitplanner"
+    },
+    "web": {
+      "favicon": "./app/assets/icons/favicon.png"
+    },
+    "plugins": [
+      "expo-camera",
+      "expo-image-picker"
+    ]
+  }
+}
